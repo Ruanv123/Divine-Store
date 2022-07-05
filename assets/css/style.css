@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 16px 70px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li a {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #4B5567;
+  padding: 15px;
+}
+header nav ul li a i {
+  padding-left: 5px;
+}
+header .buttons {
+  display: flex;
+  align-items: center;
+}
+header .buttons .login {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #07617D;
+  padding-right: 20px;
+}
+header .buttons .register {
+  background: #323643;
+  border-radius: 8px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding: 14px;
+}
+header .buttons .register i {
+  padding-left: 5px;
+}
+header .hamb {
+  display: none;
+}
+header .hamb i {
+  font-size: 35px;
+}
+
+.mais-vendidos h1 {
+  text-align: center;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  color: #4B5567;
+  margin-top: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */
