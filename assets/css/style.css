@@ -11,14 +11,27 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
   padding: 16px 70px;
+  /* The sub dropdown */
+  /* The second level sub dropdown */
+  /* Change background color of list item when being hovered */
+  /* Show the direct sub dropdown when hovering the list item */
 }
-header nav ul {
+header .dropdown {
+  /* Border */
   display: flex;
-  align-items: center;
+  /* Reset list styles */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-header nav ul li a {
+header .dropdown li {
+  /* Spacing */
+  padding: 8px;
+  /* Used to position the sub dropdown */
+  position: relative;
+}
+header .dropdown li a {
   font-family: "Archivo";
   font-style: normal;
   font-weight: 500;
@@ -26,16 +39,52 @@ header nav ul li a {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #4B5567;
-  padding: 15px;
 }
-header nav ul li a i {
-  padding-left: 5px;
+header .dropdown ul {
+  /* Border */
+  /* Hidden by default */
+  display: none;
+  /* Absolute position */
+  left: 0;
+  position: absolute;
+  top: 100%;
+  /* Reset styles */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* Width */
+  width: 200px;
+  z-index: 999;
 }
-header .buttons {
+header .dropdown ul a {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #4B5567;
+}
+header .dropdown ul ul {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+header .dropdown li:hover {
+  background-color: #FFFFFF;
+}
+header .dropdown li:hover > ul {
+  display: block;
+}
+header .button {
   display: flex;
   align-items: center;
 }
-header .buttons .login {
+header .button .btn-1 {
+  padding: 10px;
+}
+header .button .btn-1 a {
   font-family: "Archivo";
   font-style: normal;
   font-weight: 500;
@@ -43,39 +92,35 @@ header .buttons .login {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #07617D;
-  padding-right: 20px;
 }
-header .buttons .register {
-  background: #323643;
-  border-radius: 8px;
+header .button .btn-2 a {
   font-family: "Archivo";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
-  color: #fff;
-  padding: 14px;
-}
-header .buttons .register i {
-  padding-left: 5px;
-}
-header .hamb {
-  display: none;
-}
-header .hamb i {
-  font-size: 35px;
+  color: #FFFFFF;
+  background: #323643;
+  border-radius: 8px;
+  padding: 15px;
 }
 
-.mais-vendidos h1 {
-  text-align: center;
+.mais-vendidos #title {
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 20px;
   color: #4B5567;
+  text-align: center;
   margin-top: 10vh;
+}
+.mais-vendidos .container {
+  display: flex;
+  align-items: center;
+  padding: 10vh 10vw;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
