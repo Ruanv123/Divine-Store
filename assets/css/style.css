@@ -7,84 +7,48 @@
   text-decoration: none;
 }
 
+.body {
+  display: grid;
+  grid-template-columns: 1fr repeat(12, 70px) 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  grid-auto-flow: row;
+}
+
 header {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  width: 100%;
+  padding: 16px 70px;
+  max-width: 1180px;
+}
+header .header-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 70px;
-  /* The sub dropdown */
-  /* The second level sub dropdown */
-  /* Change background color of list item when being hovered */
-  /* Show the direct sub dropdown when hovering the list item */
 }
-header .dropdown {
-  /* Border */
-  display: flex;
-  /* Reset list styles */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-header .dropdown li {
-  /* Spacing */
-  padding: 8px;
-  /* Used to position the sub dropdown */
-  position: relative;
-}
-header .dropdown li a {
-  font-family: "Archivo";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
-  color: #4B5567;
-}
-header .dropdown ul {
-  /* Border */
-  /* Hidden by default */
-  display: none;
-  /* Absolute position */
-  left: 0;
-  position: absolute;
-  top: 100%;
-  /* Reset styles */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  /* Width */
-  width: 200px;
-  z-index: 999;
-}
-header .dropdown ul a {
-  font-family: "Archivo";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
-  color: #4B5567;
-}
-header .dropdown ul ul {
-  left: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 999;
-}
-header .dropdown li:hover {
-  background-color: #FFFFFF;
-}
-header .dropdown li:hover > ul {
-  display: block;
-}
-header .button {
+header .header-1 nav ul {
   display: flex;
   align-items: center;
 }
-header .button .btn-1 {
-  padding: 10px;
+header .header-1 nav ul li {
+  padding: 20px;
 }
-header .button .btn-1 a {
+header .header-1 nav ul li a {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #4B5567;
+}
+header .header-1 .buttons {
+  display: flex;
+  align-items: center;
+}
+header .header-1 .buttons .login {
+  padding: 20px;
   font-family: "Archivo";
   font-style: normal;
   font-weight: 500;
@@ -92,8 +56,12 @@ header .button .btn-1 a {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #07617D;
+  text-decoration: underline;
 }
-header .button .btn-2 a {
+header .header-1 .buttons #register {
+  padding: 15px;
+  background-color: #323643;
+  border-radius: 8px;
   font-family: "Archivo";
   font-style: normal;
   font-weight: 500;
@@ -101,25 +69,27 @@ header .button .btn-2 a {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  background: #323643;
-  border-radius: 8px;
-  padding: 15px;
+}
+header .header-1 .buttons #sacola {
+  padding-left: 20px;
+}
+header .header-1 .buttons #sacola span i {
+  font-size: 1.4rem;
+  color: #323643;
 }
 
-.mais-vendidos #title {
-  font-family: "Public Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 20px;
-  color: #4B5567;
-  text-align: center;
-  margin-top: 10vh;
+.banner {
+  grid-row-start: 2/3;
 }
-.mais-vendidos .container {
+
+.hero-mais-vendidos .title {
+  margin-top: 10vh;
+  text-align: center;
+}
+.hero-mais-vendidos .cards-flex {
+  margin: 0px 50px;
   display: flex;
   align-items: center;
-  padding: 10vh 10vw;
   justify-content: space-between;
 }
 

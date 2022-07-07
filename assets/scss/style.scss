@@ -8,98 +8,51 @@
     text-decoration: none;
 }
 
+.body {
+    display: grid;
+    grid-template-columns: 1fr repeat(12, 70px) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    grid-auto-flow: row
+}
+
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    width: 100%;
     padding: 16px 70px;
+    max-width: 1180px;
 
-    .dropdown {
-        /* Border */
-        display: flex;
-
-        /* Reset list styles */
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .dropdown li {
-        /* Spacing */
-        padding: 8px;
-
-        /* Used to position the sub dropdown */
-        position: relative;
-
-        a {
-            font-family: 'Archivo';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0.02em;
-            color: #4B5567;
-        }
-    }
-
-    /* The sub dropdown */
-    .dropdown ul {
-
-        /* Border */
-        a {
-            font-family: 'Archivo';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0.02em;
-            color: #4B5567;
-        }
-
-        /* Hidden by default */
-        display: none;
-
-        /* Absolute position */
-        left: 0;
-        position: absolute;
-        top: 100%;
-
-        /* Reset styles */
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-
-        /* Width */
-        width: 200px;
-        z-index: 999;
-    }
-
-    /* The second level sub dropdown */
-    .dropdown ul ul {
-        left: 100%;
-        position: absolute;
-        top: 0;
-        z-index: 999;
-    }
-
-    /* Change background color of list item when being hovered */
-    .dropdown li:hover {
-        background-color: #FFFFFF;
-    }
-
-    /* Show the direct sub dropdown when hovering the list item */
-    .dropdown li:hover>ul {
-        display: block;
-    }
-
-    .button {
+    .header-1 {
         display: flex;
         align-items: center;
+        justify-content: space-between;
 
-        .btn-1 {
-            padding: 10px;
+        nav ul {
+            display: flex;
+            align-items: center;
 
-            a {
+            li {
+                padding: 20px;
+
+                a {
+                    font-family: 'Archivo';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: 0.02em;
+                    color: #4B5567;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+
+            .login {
+                padding: 20px;
                 font-family: 'Archivo';
                 font-style: normal;
                 font-weight: 500;
@@ -107,11 +60,13 @@ header {
                 line-height: 20px;
                 letter-spacing: 0.02em;
                 color: #07617D;
+                text-decoration: underline;
             }
-        }
 
-        .btn-2 {
-            a {
+            #register {
+                padding: 15px;
+                background-color: #323643;
+                border-radius: 8px;
                 font-family: 'Archivo';
                 font-style: normal;
                 font-weight: 500;
@@ -119,32 +74,33 @@ header {
                 line-height: 20px;
                 letter-spacing: 0.02em;
                 color: #FFFFFF;
-                background: #323643;
-                border-radius: 8px;
-                padding: 15px;
+            }
+
+            #sacola {
+                padding-left: 20px;
+
+                span i {
+                    font-size: 1.4rem;
+                    color: #323643;
+                }
             }
         }
     }
 }
 
-.mais-vendidos {
-    #title {
-        font-family: 'Public Sans';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 20px;
-        color: #4B5567;
-        text-align: center;
+.banner {
+    grid-row-start: 2 / 3;
+}
+
+.hero-mais-vendidos {
+    .title {
         margin-top: 10vh;
+        text-align: center;
     }
-    .container {
+    .cards-flex{
+        margin: 0px 50px ;
         display: flex;
         align-items: center;
-        padding: 10vh 10vw;
         justify-content: space-between;
-        .card-1 {
-            
-        }
     }
 }
