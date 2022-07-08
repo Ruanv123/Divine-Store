@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 1fr repeat(12, 70px) 1fr;
   grid-template-rows: auto;
-  grid-gap: 30px;
+  gap: 40px;
   grid-auto-flow: row;
 }
 
@@ -85,9 +85,15 @@ header .header-1 .buttons #sacola span i {
 .hero-mais-vendidos .title {
   margin-top: 10vh;
   text-align: center;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  color: #4B5567;
+  margin-bottom: 1vh;
 }
 .hero-mais-vendidos .cards-flex {
-  margin: 0px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
