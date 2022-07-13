@@ -19,8 +19,7 @@ header {
   grid-column-start: 2;
   grid-column-end: 14;
   width: 100%;
-  padding: 16px 70px;
-  max-width: 1180px;
+  padding: 16px 0px;
 }
 header .header-1 {
   display: flex;
@@ -79,9 +78,16 @@ header .header-1 .buttons #sacola span i {
 }
 
 .banner {
-  grid-row-start: 2/3;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 15;
 }
 
+.hero-mais-vendidos {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
 .hero-mais-vendidos .title {
   margin-top: 10vh;
   text-align: center;
@@ -94,9 +100,155 @@ header .header-1 .buttons #sacola span i {
   margin-bottom: 1vh;
 }
 .hero-mais-vendidos .cards-flex {
+  margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.hero-mais-vendidos .cards-flex .card-1 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-1 .text h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-1 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-2 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-2 .text h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-2 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-3 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-3 .text h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-3 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-4 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-4 .text h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.hero-mais-vendidos .cards-flex .card-4 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+
+.section-sobre-nos {
+  background: #F0F0F0;
+  margin-top: 4vh;
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-column-end: 14;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sobre-nos img {
+  padding: 30px;
+}
+.section-sobre-nos .text {
+  padding: 30px;
+  text-align: center;
+}
+.section-sobre-nos .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 20px;
+  color: #4B5567;
+}
+.section-sobre-nos .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #4B5567;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
