@@ -251,4 +251,59 @@ header .header-1 .buttons #sacola span i {
   margin-top: 50px;
 }
 
+.section-ultimas-pecas {
+  margin-top: 4vh;
+  grid-row-start: 5;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+.section-ultimas-pecas #title {
+  text-align: center;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #4B5567;
+}
+.section-ultimas-pecas .cards {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-ultimas-pecas .cards .card-1 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-ultimas-pecas .cards .card-1 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-1 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-1 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -21,6 +21,7 @@ header {
     grid-column-end: 14;
     width: 100%;
     padding: 16px 0px;
+
     .header-1 {
         display: flex;
         align-items: center;
@@ -266,9 +267,11 @@ header {
     img {
         padding: 30px;
     }
+
     .text {
         padding: 30px;
         text-align: center;
+
         h1 {
             font-family: 'Public Sans';
             font-style: normal;
@@ -288,6 +291,69 @@ header {
             letter-spacing: 0.02em;
             color: #4B5567;
             margin-top: 50px;
+        }
+    }
+}
+
+.section-ultimas-pecas {
+    margin-top: 4vh;
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    #title {
+        text-align: center;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        color: #4B5567;
+    }
+
+    .cards {
+        margin-top: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .card-1 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
         }
     }
 }
