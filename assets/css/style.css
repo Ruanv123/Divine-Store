@@ -19,7 +19,7 @@ header {
   grid-column-start: 2;
   grid-column-end: 14;
   width: 100%;
-  padding: 16px 0px;
+  padding: 10px 0px;
 }
 header .header-1 {
   display: flex;
@@ -79,8 +79,11 @@ header .header-1 .buttons #sacola span i {
 
 .banner {
   grid-row-start: 2;
-  grid-column-start: 1;
-  grid-column-end: 15;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+.banner img {
+  border-radius: 8px;
 }
 
 .hero-mais-vendidos {
@@ -223,6 +226,7 @@ header .header-1 .buttons #sacola span i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 8px;
 }
 .section-sobre-nos img {
   padding: 30px;
@@ -304,6 +308,314 @@ header .header-1 .buttons #sacola span i {
   line-height: 28px;
   letter-spacing: -0.4px;
   color: #000000;
+}
+.section-ultimas-pecas .cards .card-2 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-ultimas-pecas .cards .card-2 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-2 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-2 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-3 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-ultimas-pecas .cards .card-3 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-3 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-3 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-4 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-ultimas-pecas .cards .card-4 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-4 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-ultimas-pecas .cards .card-4 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+
+.marcas {
+  grid-row-start: 6;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+.marcas #titulo {
+  text-align: center;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #4B5567;
+  margin-top: 10vh;
+}
+.marcas .marcas-imgs {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F0F0F0;
+  border-radius: 8px;
+}
+.marcas .marcas-imgs img {
+  padding: 10px 0px;
+}
+
+.section-galeria {
+  grid-row-start: 7;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+.section-galeria .titulo {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #4B5567;
+  text-align: center;
+  margin-top: 15vh;
+}
+.section-galeria .imgs {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+}
+.section-galeria .imgs .right {
+  flex-direction: column;
+}
+
+.section-sneakers {
+  grid-row-start: 8;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+.section-sneakers .title {
+  text-align: center;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #4B5567;
+  margin-top: 15vh;
+}
+.section-sneakers .cards-flex {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sneakers .cards-flex .card-1 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sneakers .cards-flex .card-1 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-1 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-1 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-2 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sneakers .cards-flex .card-2 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-2 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-2 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-3 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sneakers .cards-flex .card-3 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-3 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-3 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-4 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sneakers .cards-flex .card-4 .text h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-4 .text p {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.section-sneakers .cards-flex .card-4 h3 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+
+footer {
+  grid-row-start: 9;
+  grid-column-start: 1;
+  grid-column-end: 15;
+  width: 100%;
+  background-color: #F0F0F0;
 }
 
 /*# sourceMappingURL=style.css.map */

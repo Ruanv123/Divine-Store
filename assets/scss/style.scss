@@ -20,7 +20,7 @@ header {
     grid-column-start: 2;
     grid-column-end: 14;
     width: 100%;
-    padding: 16px 0px;
+    padding: 10px 0px;
 
     .header-1 {
         display: flex;
@@ -89,8 +89,12 @@ header {
 
 .banner {
     grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 15;
+    grid-column-start: 2;
+    grid-column-end: 14;
+
+    img {
+        border-radius: 8px;
+    }
 }
 
 .hero-mais-vendidos {
@@ -263,6 +267,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 8px;
 
     img {
         padding: 30px;
@@ -300,6 +305,7 @@ header {
     grid-row-start: 5;
     grid-column-start: 2;
     grid-column-end: 14;
+
     #title {
         text-align: center;
         font-family: 'Public Sans';
@@ -355,5 +361,364 @@ header {
 
             }
         }
+
+        .card-2 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
+
+        .card-3 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
+
+        .card-4 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
     }
+}
+
+.marcas {
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 14;
+
+    #titulo {
+        text-align: center;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        color: #4B5567;
+        margin-top: 10vh;
+    }
+
+    .marcas-imgs {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #F0F0F0;
+        border-radius: 8px;
+
+        img {
+            padding: 10px 0px;
+        }
+    }
+}
+
+.section-galeria {
+    grid-row-start: 7;
+    grid-column-start: 2;
+    grid-column-end: 14;
+
+    .titulo {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        color: #4B5567;
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .imgs {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+
+        .right {
+            flex-direction: column;
+
+        }
+    }
+}
+
+.section-sneakers {
+    grid-row-start: 8;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    .title {
+        text-align: center;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        color: #4B5567;
+        margin-top: 15vh;
+    }
+    .cards-flex {
+        margin-top: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .card-1 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
+        .card-2 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
+        .card-3 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
+        .card-4 {
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #000000;
+                }
+            }
+
+            h3 {
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #000000;
+
+            }
+        }
+    }
+}
+footer {
+    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-column-end: 15;
+    width: 100%;
+    background-color: #F0F0F0;
 }
